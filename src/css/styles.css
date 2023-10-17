@@ -1,0 +1,1200 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/* Intro section */
+#intro{
+    position: relative;
+    background-image: url("../images/screenshot/assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: 20px;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.navitemsdiv{
+    float: right;
+    margin-right: 5%;
+    padding-top: 10px;
+}
+
+.navitems{
+    font-size: 16px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    color: #fdc800;
+    transition: 0.5s;
+}
+
+.navitems:hover{
+    color: #fdc800;
+    transition: 0.5s;
+}
+
+.navbtn{
+    margin-left: 20px;
+    background-color: #fdc800;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.navbtn:hover{
+    background-color: #fdc600de;
+    transition: 0.5s;
+}
+
+#intro h1{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#intro p{
+    color: white;
+    line-height: 2;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.enrollbtn{
+    background-color: #fdc800;
+    border-radius: 2px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.enrollbtn:hover{
+    background-color: #fdc600de;
+    transition: 0.5s;
+}
+
+.introcontent{
+   position: absolute;
+   left: 5%;
+   top: 25%;
+   
+}
+
+/* About Section*/
+#about{
+    margin: 5%;
+}
+
+.aboutdiv{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.aboutcontent{
+    width: 24%;
+    /* padding-right: 20px; */
+}
+
+.aboutimg{
+    height: 80px;
+    width: 80px;
+}
+
+#about h3{
+    padding-top: 15px;
+}
+
+#about p{
+    line-height: 1.8;
+}
+
+/* Courses Section */
+#courses{
+    background-color: rgb(245, 245, 245);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#courses h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.coursescontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.coursescarddiv1{
+    /* display: flex; */
+    width: 32%;
+}
+
+/* .coursescarddiv1:nth-child(3){
+    margin: 0;
+} */
+
+.coursescards{
+    position: relative;
+}
+
+
+
+.difficultybtn1{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    border: none;
+    background-color: #69db7c;
+    border-radius: 25px;
+    color: white;
+    padding: 8px 15px;
+}
+
+.coursecardimg{
+    border-radius: 10px 10px 0 0 ;
+    width: 100%;
+}
+
+
+.coursescardcontent1{
+    background-color: white;
+    padding: 20px;
+    /* width: 88%; */
+    border-radius: 0 0 10px 10px;
+    margin-top: -3px;
+}
+
+.coursescategorybtn{
+    border: 1px solid rgb(230, 226, 226);
+    background: transparent;
+    border-radius: 25px;
+    color:#fdc800;
+    padding: 3px 15px;
+}
+
+.cardreviewimg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.reviewcontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewstars{
+    /* float: right; */
+    padding-top: 5px;
+}
+.fa-star{
+    color: #fdc800;
+}
+
+#courses label{
+    /* position: absolute; */
+    padding-left: 15px;
+    /* top: 60%; */
+    color: grey;
+}
+
+#courses ul{
+    padding: 0;
+}
+
+#courses ul li{
+    list-style: none;
+    line-height: 2;
+}
+
+#courses ul li::before{
+    content: "✓";
+    padding-right: 10px;
+}
+
+.coursedurationdiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.coursedurationdiv .durationicons{
+    padding-right: 10px;
+}
+
+.coursetime{
+    width: 33.3%;
+    text-align: left;
+    color: grey;
+}
+
+.courseusers{
+    width: 33.3%;
+    text-align: center;
+    color: grey;
+}
+
+.coursecomments{
+    width: 33.3%;
+    text-align: right;
+    color: grey;
+}
+
+
+#courses hr{
+    border-color: rgb(255, 253, 253, 0.21);
+}
+
+.coursepricingdiv{
+    display: flex;
+}
+
+.courseprice{
+    width: 50%;
+    text-align: left;
+}
+
+.coursepurchase{
+    width: 50%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.startcoursebtn{
+    margin-left: 20px;
+    background-color: #fdc800;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.startcoursebtn:hover{
+    background-color: #fdc600de;
+    transition: 0.5s;
+}
+
+.coursescarddiv2{
+    
+}
+
+.difficultybtn2{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    border: none;
+    background-color: #ffa94d;
+    border-radius: 25px;
+    color: white;
+    padding: 8px 15px;
+}
+
+.difficultybtn3{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    border: none;
+    background-color: #fd739c;
+    border-radius: 25px;
+    color: white;
+    padding: 8px 15px;
+}
+
+
+/* BLog Section */
+#blog{
+    margin: 5%;
+}
+
+.blogcontainer1{
+    display: flex;
+    padding-bottom: 200px;
+    justify-content: space-between;
+}
+
+.blogimg{
+    width: 100%;
+}
+
+.blogcontainer1col1{
+    width: 49%;
+    /* padding-right: 50px; */
+    
+}
+
+.blogcontainer1col2{
+    width: 49%;
+    text-align: right;
+}
+
+.blogsubcontainer{
+    display: flex;
+    padding-top: 10px;
+}
+
+.blogsubcontainercol1{
+    width: 15%;
+
+}
+
+.blogsubcontainercol1 img{
+    width: 80px;
+    height: 80px;
+    /* padding-bottom: 60px; */
+    
+}
+
+.blogsubcontainercol2{
+    width: 50%;
+
+}
+
+/* .blogsubcontainercol2 p{
+   text-align: justify;
+} */
+
+/* .blogsubcontent{
+    padding-bottom: 20px;
+    padding-left: 50px;
+} */
+
+#blog p{
+    line-height: 2;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+#blog h1{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+
+#blog h3{
+    margin: 0;
+}
+
+
+
+.blogcontainer2{
+    display: flex;
+    padding-bottom: 200px;
+    justify-content: space-between;
+}
+
+.blogcontainer2col1{
+    width: 49%;
+    /* padding-right: 100px; */
+}
+
+.blogcontainer2col2{
+    width: 49%;
+    
+}
+
+.teachingbtn{
+    background-color: #fdc800;
+    border-radius: 2px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.teachingbtn:hover{
+    background-color: #fdc600de;
+    transition: 0.5s;
+}
+
+
+
+
+.blogcontainer3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogcontainer3col1{
+    width: 49%;
+    /* padding-right: 50px; */
+}
+
+.blogcontainer3col2{
+    width: 49%;
+    text-align: right;
+}
+
+.learningbtn{
+    background-color: #fdc800;
+    border-radius: 2px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.learningbtn:hover{
+    background-color: #fdc600de;
+    transition: 0.5s;
+}
+
+
+
+/* Categories Section */
+#categories{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(245, 245, 245);
+}
+
+#categories h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+ #categories .container{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+    justify-content: center; */
+    margin-left: 5%;
+    margin-right: 5%;
+ }  
+
+#categories .containerrow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#categories .containerrow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#categories img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#categories .card{
+    transition: 0.3s;
+    padding-bottom: 30px;
+    width: 32%;
+    /* box-shadow: 1px 1px 3px 0px black; */
+}
+
+/* #categories .centercard{
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+#categories .card:hover{
+    
+}
+
+#categories .cardlabel{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: -4px;
+}
+
+.categoriesbtndiv{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.categoriesbtn{
+    background-color: #fdc800;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.categoriesbtn:hover{
+    background-color: #fdc600de;
+    transition: 0.5s;
+}
+
+/* Stats Section */
+#stats{
+    margin: 5%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.statsvideo{
+    background-image: url("../images/screenshot/assets/video_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+}
+
+.iconplay{
+    position: absolute;
+    left:50%;
+    top: 50%;
+}
+
+.statscontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.statscontent{
+    width: 25%;
+    text-align: center;
+}
+
+.statsimg{
+    width: 80px;
+    height: 80px;
+}
+
+#stats h1{
+    margin-bottom: 0;
+}
+
+/* feedback Section */
+#feedback{
+    background-color: rgb(245, 245, 245);
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#feedback h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#feedback p{
+    text-align: justify;
+    font-style: italic;
+    line-height: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#feedback h3{
+    margin-bottom: 5px;
+}
+
+#feedback .author2{
+    position: absolute;
+    top: 92%;
+    left: 43%;
+}
+
+.feedbackcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 3% 5% 0 5%;
+}
+
+.reviews1{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    margin-right: 2%;
+    
+}
+
+.reviews2{
+    position: relative;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.quoteimg{
+    height: 80px;
+    width: 80px;
+}
+
+.profilepic{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/* Get Started Section */
+#getstarted{
+    position: relative;
+    background-image: url("../images/screenshot/assets/CTA_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 100% 50%;
+    height: 714px;
+}
+
+.getstartedcontent{
+    position: absolute;
+    left: 5%;
+    top:20%;
+}
+
+.getstartedcontent h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.getstartedcontent p{
+    color: white;
+    line-height: 2;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.getstartedbtn{
+    background-color: #fdc800;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+
+.getstartedbtn:hover{
+    background-color: #fdc600de;
+    transition: 0.5s;
+}
+
+/* Company Section */
+#company{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.companies{
+    display: flex;
+    flex-direction: row;
+}
+
+#company h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.companyimgdiv{
+    width: 25%;
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    background-image: url("../images/screenshot/assets/footer_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footerdiv{
+    display: flex;
+    margin: 5%;
+}
+
+.footerinfo{
+    width: 25%;
+}
+
+footer a img{
+    padding-top: 16px;
+}
+
+footer p{
+    color: white;
+    line-height: 2;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #fdc800;
+    transition: 0.5s;
+}
+
+footer .footerinfo ul li{
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+#toggle {
+    display: none;
+  }
+
+/* .nav-wrapper{
+    display: none;
+} */
+
+
+
+
+
+
+/* Responsive for Mobile */
+@media screen and (max-width: 767px){
+    /* IntroSection */
+    #intro{
+        background-position: 76% 50%;
+        padding-bottom: 100px;
+        
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    
+    
+      
+      /**
+        Hamburger
+      **/
+      .hamburger {
+        position: absolute;
+        top: 5em;
+        right: 5%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+        margin-right: 5%;
+        cursor: pointer;
+      }
+      
+      .hamburger div {
+        position: relative;
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: #fdc800;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      /**
+      Nav Styles
+      **/
+      .navbar{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        top: -100%; left: 0; right: 0; bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
+        z-index: 1;
+        margin: 0 !important;
+      }
+
+
+      .nav-wrapper {
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+      }
+      .navitemsdiv {
+        text-align: left;
+        margin-left: 25%;
+      }
+      .navitemsdiv a {
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-size: 2em;
+        display: inline-block;
+        margin-top: 1.25em;
+        transition: color 0.2s ease-in-out;
+        letter-spacing: 1px;
+        width: 100%;
+        
+      }
+      .navitemsdiv a:before {
+        content: '';
+        height: 0;
+        position: absolute;
+        width: 0.25em;
+        background-color: white;
+        left: -0.5em;
+        transition: all 0.2s ease-in-out;
+      }
+
+
+      .navitemsdiv a:hover {
+        color: #fdc800;
+      }
+      .navitemsdiv a:hover:before {
+        height: 100%;
+      }
+      
+      /**
+      Animations
+      **/
+      #toggle:checked + .hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+      }
+      #toggle:checked + .hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+      }
+      #toggle:checked + .hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+      }
+      
+      #toggle:checked + .hamburger + .navbar {
+        top: 0;
+        transform: scale(1);
+      }
+
+      #toggle:checked + .hamburger{
+        position: fixed;
+      }
+
+
+
+          
+    .navbar{
+        margin: 5%;
+    }
+
+    .introcontent{
+        margin: 5%;
+    }
+
+    .enrollbtn{
+        position: absolute;
+        left: 30%;
+    }
+
+    
+
+
+    /* aboutsection */
+
+  .aboutdiv{
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .aboutcontent{
+    width: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+  
+
+  /* Coursessection */
+  .coursescontainer{
+    flex-wrap: wrap;
+  }
+
+  .coursescarddiv1{
+    width: 100%;
+    margin: 5%;
+  }
+
+  /* Blog Section */
+  .blogimg{
+    margin-top: 5%;
+  }
+
+  .blogcontainer1, .blogcontainer2, .blogcontainer3{
+    margin: 5%;
+  }
+
+  .blogcontainer1{
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
+  }
+
+
+  .blogcontainer1col1{
+    width: 100%;
+    /* order: 2; */
+  }
+
+  .blogcontainer1col2{
+    width: 100%;
+    /* order: 1; */
+  }
+
+  .blogsubcontainercol1{
+    width: 30%;
+  }
+
+  .blogsubcontainercol2{
+    width: 70%%;
+  }
+
+
+  .blogcontainer2{
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .teachingbtn{
+    position: absolute;
+    left: 30%;
+  }
+
+  .blogcontainer2col1, .blogcontainer2col2{
+    width: 100%;
+  }
+
+  .blogcontainer3{
+    flex-wrap: wrap-reverse;
+    position: relative;
+    padding-bottom: 100px;
+  }
+
+  .learningbtn{
+    position: absolute;
+    left: 30%;
+  }
+
+  .blogcontainer3col1, .blogcontainer3col2{
+    width: 100%;
+  }
+
+
+
+  /* Categories Section */
+  .containerrow1, .containerrow2{
+    flex-wrap: wrap;
+    margin: 5%;
+  }
+
+  #categories .card{
+    width: 100%;
+  }
+
+  /* Stats section */
+  .statsvideo{
+    height: 320px;
+    background-position: 50% 50%;
+  }
+
+  .iconplay{
+    left:42%;
+    top: 42%;
+  }
+
+  .statscontainer{
+    flex-wrap: wrap;
+  }
+
+  .statscontent{
+    width: 40%;
+    margin: 5%;
+  }
+
+  /* Feedback Section */
+  .feedbackcontainer{
+    flex-wrap: wrap;
+  }
+
+  .reviews1, .reviews2{
+    margin: 5%;
+  }
+
+  #feedback .author2{
+    left:35%;
+  }
+
+  /* getstarted Section */
+  #getstarted{
+    background-position: 71% 50%;
+    text-align: center;
+  }
+
+  /* Company Section */
+  .companies{
+    flex-wrap: wrap;
+  }
+
+  .companyimgdiv{
+    width: 100%;
+    margin: 5%;
+  }
+
+  /* Footer */
+  .footerdiv{
+    flex-wrap: wrap;
+  }
+
+  .footerinfo:nth-child(1){
+    width: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .footerinfo{
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+  }
+
+
+}
+
+
+/* Responsive for tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    /* Intro Section */
+    #intro{
+        background-position: 80% 50%;
+    }
+
+    #intro .logo img{
+        padding-top: 10px;
+    }
+
+
+
+
+    /* About Section */
+    .aboutdiv{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .aboutcontent{
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    /* Courses Section */
+    .coursescontainer{
+        flex-wrap: wrap;
+        
+    }
+
+
+    .coursescarddiv1{
+        width: 100%;    
+        padding-top: 50px;
+    }
+
+
+    /* Blog Section */
+    .blogcontainer1{
+        flex-wrap: wrap-reverse;
+    }
+
+    .blogcontainer1col1, .blogcontainer1col2{
+        width: 100%;
+    }
+
+    .blogcontainer2{
+        flex-wrap: wrap;
+        
+    }
+
+    .blogcontainer2col1, .blogcontainer2col2{
+        width: 100%;
+    }
+
+    .blogcontainer3{
+        flex-wrap: wrap-reverse;
+        padding-bottom: 50px;
+    }
+
+    .blogcontainer3col1, .blogcontainer3col2{
+        width: 100%;
+    }
+
+    /* Categories Section */
+   #categories .container{
+    display: flex;
+    justify-content: space-between;
+
+    }
+
+    .containerrow1, .containerrow2{
+        flex-wrap: wrap;
+        width: 50%;
+        
+    }
+
+    #categories .card{
+        width: 98%;
+    }
+
+    
+
+    /* Stats Section */
+    .statsvideo{
+        background-position: 50% 50%;
+        height: 481px;
+    }
+
+    .iconplay{
+        left: 47%;
+        top: 43%;
+    }
+
+    /* feedback section */
+    #feedback .author2{
+        top: 94%;
+        left: 35%;
+    }
+
+
+    /* Company Section */
+    .companies{
+        flex-wrap: wrap;
+    }
+
+    .companyimgdiv{
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+    
+
+}
